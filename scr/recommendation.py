@@ -10,7 +10,7 @@ from utils import *
 import matplotlib.pyplot as plt
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--data_root", type=str, default="../ILID/data/", help="path to dataset")
+parser.add_argument("--data_root", type=str, default="../FLARE/data/", help="path to dataset")
 parser.add_argument('--no_clients', default=5, help="number of clients: K")
 parser.add_argument('--gpu', type=int, default=0, help="GPU ID, -1 for CPU")
 parser.add_argument('--seed', type=int, default=0, help="random seed (default: 1)")
