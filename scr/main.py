@@ -18,7 +18,7 @@ import pickle
 parser = argparse.ArgumentParser()
 parser.add_argument("--data_root", type=str, default="../FLARE/data/", help="path to dataset")
 parser.add_argument("--model_root", type=str, default="../FLARE/scr/model/", help="path to model")
-parser.add_argument("--save_dir", type=str, default="../FLARE/scr/results", help="path to model")
+parser.add_argument("--save_dir", type=str, default="../FLARE/results", help="path to model")
 parser.add_argument("--model", type=str, default="vit_b_16", help="vit_b_16, vit_t_16(Distilled)")
 parser.add_argument('--no_clients', default=5, help="number of clients: K")
 parser.add_argument('--rounds', type=int, default=50, help="rounds of communication")
