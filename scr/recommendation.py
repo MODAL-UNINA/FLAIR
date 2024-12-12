@@ -23,7 +23,7 @@ torch.manual_seed(args.seed)
 torch.cuda.manual_seed(args.seed)
 torch.cuda.manual_seed_all(args.seed)
 
-#%%
+
 def get_sample(client_data, transform_func):
     sample_data = []
     for impath, text in tqdm(client_data, desc="Processing augmented data"):
@@ -81,7 +81,6 @@ def smilarity(client_space, text_features):
 
     return top_3_matches
 
-#%%
 image_dir = os.path.join(args.data_root, "images")
 json_data = read_from_json(os.path.join(args.data_root, "ilid.json"))
 
@@ -119,7 +118,7 @@ client_space = {
     for idx, client_data in train_data.items()
 }
 
-#%%
+
 # now revived a NLP qury
 # query = 'u-handle'
 # query = 'floor cleaning'
