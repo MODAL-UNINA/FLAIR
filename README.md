@@ -25,5 +25,5 @@ Deep learning (DL) has significantly advanced Industry $4.0$ by leveraging data 
 3. Run
 
 ```
-   python    scr/main.py
+   python scr/main.py
 ```
