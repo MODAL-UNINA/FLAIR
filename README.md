@@ -27,3 +27,5 @@ Deep learning (DL) has significantly advanced Industry $4.0$ by leveraging data 
 ```
    python scr/main.py
 ```
+
+4. Thanks to the author of the paper "Industrial Language-Image Dataset (ILID): Adapting Vision Foundation Models for Industrial Settings" for providing the ILID dataset.
