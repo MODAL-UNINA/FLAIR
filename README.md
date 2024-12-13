@@ -5,7 +5,7 @@ Deep learning (DL) has significantly advanced Industry $4.0$ by leveraging data 
 ### Note
 1. Download ILID data
 
-please download Industrial Language-Image Dataset (ILID) from [here](https://github.com/kenomo/industrial-clip)
+   please download Industrial Language-Image Dataset (ILID) from [here](https://github.com/kenomo/industrial-clip)
 
 2. Example data folder structure
    
